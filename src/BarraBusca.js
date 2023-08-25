@@ -76,9 +76,9 @@ export default function BarraBusca({placeHolder, dados, campoChave, campoBusca, 
                                         funcaoSelecao({})
                                         inputBusca.current.setCustomValidity("");
                                         let componenteResult = document.querySelector('[data-result]');
-                                        componenteResult.style.display="none";
+                                        componenteResult.style.display="none" + " sobrenome";
                                    }}>
-                                        {item[campoChave] + '-' + item[campoBusca]} 
+                                        {item[campoChave] + '-' + item[campoBusca] + item["sobrenome"]} 
                                 
                                     </li>
                         })
