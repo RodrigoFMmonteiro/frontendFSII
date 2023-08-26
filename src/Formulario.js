@@ -23,7 +23,7 @@ export default function Formulario(propd){
           <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Responsável</Form.Label>
-                    <Form.Control type="text" placeholder="" required />
+                    <Form.Control type="text" placeholder=""/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="">
                     <Form.Label>Descrição da Ação</Form.Label>
